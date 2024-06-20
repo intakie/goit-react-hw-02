@@ -1,0 +1,10 @@
+.button {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
