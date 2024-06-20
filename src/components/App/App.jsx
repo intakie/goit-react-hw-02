@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Description from '../Description/Description';
 import Options from '../Options/Options';
 import Feedback from '../Feedback/Feedback';
+import Notification from '../Notification/Notification';
 import css from './App.module.css';
 
 export default function App() {
@@ -48,7 +49,7 @@ export default function App() {
           positivePercentage={positivePercentage}
         />
       ) : (
-        <p>No feedback given</p>
+        <Notification message="No feedback given" />
       )}
     </div>
   );
